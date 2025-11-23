@@ -3,47 +3,60 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About — TechCon 2024</title>
+  <title>About TechCon 2024</title>
   <style>
-    :root{--brand:#0b6efd;--muted:#f9fafb;--dark:#222}
-    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;color:var(--dark)}
-    header ul{list-style:none;margin:0;padding:0;overflow:hidden;background:var(--brand)}
+    body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;color:#222}
+    header ul{list-style:none;margin:0;padding:0;overflow:hidden;background:#0b6efd}
     header ul li{float:left}
     header ul li a{display:block;color:#fff;padding:14px 16px;text-decoration:none}
     main{padding:24px}
-    article{max-width:900px}
-    aside{background:var(--muted);padding:16px;margin-top:18px}
+    article{max-width:900px;margin-bottom:40px}
+    img{max-width:100%;border-radius:8px;margin:12px 0}
+    aside{background:#f6f6f6;padding:16px;margin-top:18px}
     footer{background:#111;color:#fff;padding:10px 16px;text-align:center}
   </style>
 </head>
 <body>
   <header>
-    <ul>
-      <li><a href="/html_basic/techcon.html">Home</a></li>
-      <li><a href="/html_basic/about.html">About</a></li>
-      <li><a href="/html_basic/schedule.html">Schedule</a></li>
-      <li><a href="/html_basic/register.html">Register</a></li>
-      <li><a href="/html_basic/contact.html">Contact</a></li>
-    </ul>
+    <h1>About TechCon 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="/techcon_website/index.html">Home</a></li>
+        <li><a href="/techcon_website/about.html">About</a></li>
+        <li><a href="/techcon_website/schedule.html">Schedule</a></li>
+        <li><a href="/techcon_website/register.html">Register</a></li>
+        <li><a href="/techcon_website/contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
     <article>
-      <h1>About TechCon</h1>
-      <p>TechCon began as a small meetup for local developers and has grown into an international conference focused on practical innovation and collaboration. Our mission: to connect builders, share knowledge, and accelerate real-world technology adoption.</p>
-
-      <h2>Mission</h2>
-      <p>To provide a hands-on, inclusive event where technologists learn from practitioners and leave with actionable skills.</p>
-
-      <h2>Notable Speakers</h2>
-      <ul>
-        <li>Dr. Amina Sarkar — AI & Ethics</li>
-        <li>Marcus Lee — Cloud Native Architectures</li>
-        <li>Sanae Rodriguez — Product Leadership</li>
-      </ul>
-
       <h2>History</h2>
-      <p>Since its founding in 2016, TechCon has hosted workshops, hackathons, and talks across multiple continents.</p>
+      <p>TechCon started as a small community meetup and has grown into a global event focused on innovation, collaboration, and hands-on learning.</p>
+      <img src="/techconIMg/conference.webp" alt="Historic image showing early TechCon attendees"  width="500" height="300"/>
+      <img src="/techconIMg/conference-1.webp" alt="TechCon venue from earlier years" width="500" height=" 300" />
+    </article>
+
+    <article>
+      <div style="background:#ffffff;border-radius:12px;padding:20px;box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+      <h2 style="margin-top:0;">Mission</h2>
+      <p>Our goal is to empower developers, engineers, and tech leaders by providing a platform to share knowledge and discover new ideas.</p>
+      <img src="/techconIMg/mission.png" alt="Symbolic representation of innovation and mission" style="width:100%;border-radius:8px;margin-top:12px;" />
+      </div>
+    </article>
+
+    <article>
+      <h2>Past Speakers</h2>
+      <p>Over the years, TechCon has welcomed influential voices from across the tech world.</p>
+      <img src="/techconIMg/Dr-Jane-Smith.png" alt="Portrait of Dr. Jane-Smith" />
+      <p><strong> Dr. Jane-Smith</strong> — AI ethicist who has shaped global conversations on responsible technology.</p>
+
+      <img src="/techconIMg/Emily.png" alt="Portrait of Emily Johnson" />
+      <p><strong>Emily Johnson</strong> — Cloud architect helping redefine modern infrastructure patterns.</p>
+
+      <img src="/techconIMg/John-Doe.png" alt="Portrait of John-Doe" />
+      <p><strong>John-Doe</strong> — Product strategist known for leadership in user-focused tech innovation.</p>
     </article>
 
     <aside>
